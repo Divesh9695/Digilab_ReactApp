@@ -14,7 +14,6 @@ const Navbar: React.FC = () => {
   };
 
   const handleNavigation = (path: string) => {
-    // Navigate to the home page
     navigate("/");
 
     // Scroll to the corresponding section
@@ -43,12 +42,12 @@ const Navbar: React.FC = () => {
             <Link to="/" onClick={() => handleNavigation("blog")}>Blog</Link>
             <Link to="/" onClick={() => handleNavigation("contact")}>Contact</Link>
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-              <FaTimes />
+           <FaTimes />
             </button>
           </div>
         </nav>
         <button className="nav-btn" onClick={showNavbar}>
-          <FaBars />
+          <FaBars />  MENU
         </button>
       </header>
     </div>

@@ -373,7 +373,8 @@
     border: 1px solid black;
     background-color: black;
     flex: 1 1 100%;
-    margin: 10px 0; 
+    /* margin: 10px 0;  */
+  
 }
 
  .grid_header{
@@ -604,8 +605,6 @@ grid-template-columns: auto auto auto;
     background-color: gray;
     height: 600px;
 }
-
-
 }
  
  @media (min-width: 768px) {
@@ -978,9 +977,9 @@ grid-template-columns: auto auto auto;
   height: 361px;
 }
 
+
  }
  
-
 
 
 

@@ -4,7 +4,7 @@ header {
   align-items: center;
   padding: 20px 5px;
   background-color: #333;
-  color: aquamarine;
+ color: #31de79;
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,7 +26,7 @@ nav {
 }
 
 nav a {
-  margin-right: 20px;
+  margin-right: 24px;
   text-decoration: none;
   color: white;
   transition: 0.3s ease-in-out;
@@ -36,14 +36,12 @@ nav a:hover{
 }
 nav a:hover::after{
   content: "";
-  width: 10%;
+  width: 7%;
   height: 2px;
   background-color: aquamarine;
   position: absolute;
-  bottom: -4px;
-  margin-left: -40px;
- 
- 
+  bottom: -4px; 
+   margin-left: -40px;
 }
 
 .nav-btn {
@@ -64,6 +62,7 @@ nav a:hover::after{
 
 }
 @media (max-width: 768px) {
+  
   .nav-btn {
     display: block;
     color: white;
@@ -102,19 +101,22 @@ nav a:hover::after{
   .header {
     padding: 0 5px;
   }
+  nav a {
+    margin-right: 19px;
+  }
+ 
+}
+@media (min-width: 1280px){
+   h1 {
+    margin: 0;
+    padding-left: 80px;
+  } 
+  nav a {
+    margin-right: 60px;
+  }
 }
 @media (min-width: 576px){
   .header {
     padding: 0 5px;
   }
 }
-
-
-
-
-
-
-
-
-
-
