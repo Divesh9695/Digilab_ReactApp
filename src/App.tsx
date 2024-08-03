@@ -12,7 +12,9 @@ import "./CustomCarousel.css";
 import Contact from "./Contect";
 import Index from "./Index";
 
+
 const App: React.FC = () => {
+
   return (
     <BrowserRouter>
       <Navbar />
@@ -30,4 +32,13 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
 

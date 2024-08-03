@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { StrictMode, useState } from "react";
 import "./CustomCarousel.css";
 import image from "../public/assets/lap.jpg";
 import timage from "../public/assets/c.jpg";
@@ -90,3 +90,16 @@ import Col from "react-bootstrap/Col";
 };
 
 export default About;
+
+
+
+
+
+
+
+
+
+
+
+
+

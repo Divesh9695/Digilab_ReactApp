@@ -114,6 +114,7 @@ nav a:hover::after{
   nav a {
     margin-right: 60px;
   }
+
 }
 @media (min-width: 576px){
   .header {

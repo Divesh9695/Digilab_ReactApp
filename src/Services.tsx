@@ -1,5 +1,6 @@
 
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import vbimage from "../public/assets/pri.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -14,11 +15,25 @@ import { RiAlarmWarningFill } from "react-icons/ri";
 import { GrTechnology } from "react-icons/gr";
 import "./CustomCarousel.css";
 
+
+
+const spring = {
+  type: "spring",
+  stiffness: 700,
+  damping: 30,
+};
+
+ 
+
 interface ServicesProps {
   id: string;
 }
 
 const  Services: React.FC<ServicesProps> = ({id}) => {
+  const [isOn, setIsOn] = useState<boolean>(false);
+
+  const toggleSwitch = (): void => setIsOn(!isOn);
+
   return (
     <div id={id}>
       <Row className="display">
@@ -82,10 +97,14 @@ const  Services: React.FC<ServicesProps> = ({id}) => {
           <Col className="to">
             <div className="pra" style={{ backgroundImage: `url(${vbimage})` }}>
               <div className="search">
+              <div className="switch" data-is-on={isOn} onClick={toggleSwitch}>
+      <motion.div className="handle" layout transition={spring} />
+   
                 <p className="props_header">Market Research</p>
                 <p className="point">
                   Even the all-powerful Pointing has no control about the blind
                 </p>
+              </div>
               </div>
               <div className="search">
                 <p className="props_header">Financial Services</p>
