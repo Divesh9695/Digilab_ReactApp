@@ -219,7 +219,9 @@ text-align: center;
 .tep_html{
 color: rgb(37, 188, 37);
 text-align: center;
-padding-top: 30px;
+/* padding-top: 30px; */
+padding-top: 0px;
+font-size: 40px;
 }
 .tep_html-title{
 text-align: center;
@@ -253,9 +255,10 @@ font-display: display;
 }
 .read_more{
 color: white;
-background-color: rgb(37, 188, 37);
+background-color: #9ff669;
 padding: 10px 15px;
 border-radius: 20px;
+border: none;
 }
 .app_css{
 border: 1px solid #f8f9fa;
@@ -353,8 +356,9 @@ width: 250px;
 border-radius: 30px;
 margin-left: 9px;
 margin-top: 10px;
-background-color:  rgb(17, 236, 17);
+background-color:  #9ff669;
 color: aliceblue;
+border: none;
 }
 
 .custom_header {
@@ -577,6 +581,7 @@ height: 800px;
   background-color: gray;
   height: 600px;
 }
+
 
 
 }
@@ -928,6 +933,9 @@ margin-top: 0px;
 }
 .o{
   margin-bottom: 0px;
+}
+.tep_html {
+  margin-left: 69px;
 }
 
 

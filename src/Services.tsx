@@ -4,7 +4,6 @@ import vbimage from "../public/assets/pri.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {
-  // FaBusinessTime,
   FaResearchgate,
   FaCreativeCommonsSa,
 } from "react-icons/fa";
@@ -55,9 +54,11 @@ const Services: React.FC<ServicesProps> = ({ id }) => {
                 className="icon"
                 onClick={() =>
                   handleClick(
+
                     "Business Strategy",
                     "Description for Business Strategy Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur",
                     "Details for Business Strategy Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque."
+                  
                   )
                 }
               >

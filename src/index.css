@@ -59,10 +59,6 @@
     margin-top: 20px;
     font-weight: bold;
   }
-  
-  .custom-button:hover {
-    background-color: #0056b3;
-  }
   .box_top{
     border: 2px solid white;
     background-color: whitesmoke;
@@ -119,13 +115,11 @@
   margin-left: 30px;
   padding: 25px 40px;
   border-radius: 30px;
-  background-color: rgb(37, 188, 37);
+  background-color: #9ff669;
   color: white;
+  border: none;
 }
- 
-.props:hover {
-  background-color: #0056b3;
-}
+
 .search:hover{ 
   background-color: red;
 }
