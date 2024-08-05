@@ -4,7 +4,7 @@ import vbimage from "../public/assets/pri.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {
-  FaBusinessTime,
+  // FaBusinessTime,
   FaResearchgate,
   FaCreativeCommonsSa,
 } from "react-icons/fa";
@@ -23,6 +23,7 @@ const spring = {
 interface ServicesProps {
   id: string;
 }
+
 
 const Services: React.FC<ServicesProps> = ({ id }) => {
   const [isOn, setIsOn] = useState<boolean>(false);
@@ -43,6 +44,7 @@ const Services: React.FC<ServicesProps> = ({ id }) => {
     setSelectedDetails(details);
   };
 
+  
   return (
     <div id={id}>
       <div>
@@ -59,13 +61,12 @@ const Services: React.FC<ServicesProps> = ({ id }) => {
                   )
                 }
               >
-                <FaBusinessTime />
+                <RiAlarmWarningFill />
                 <span className="box_text">Business Strategy</span>
               </div>
               <div
                 className="icon"
                 onClick={() =>
-                  
                   handleClick(
                     "ReSearch",
                     "Description for ResearcLorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur",

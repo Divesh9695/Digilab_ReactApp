@@ -258,13 +258,13 @@ padding: 10px 15px;
 border-radius: 20px;
 }
 .app_css{
-border: 1px solid beig;
-background-color: beige;
+border: 1px solid #f8f9fa;
+background-color: #f8f9fa!important;
 padding-top: 1px;
 }
 .node_task_header{
-border: 1px solid whitesmoke ;
-background-color: whitesmoke;
+border: 1px solid white;
+background-color: white;
 height: 1640px;
 }
 .nav_header{
@@ -314,9 +314,9 @@ margin: 10px 0;
 height: 600px;
 }
 .author{
-border: 1px solid  whitesmoke;
+border: 1px solid  white;
 height: 600px;
-background-color: whitesmoke;
+background-color: white;
 }
 .tier-title{
 text-align: center;
@@ -329,9 +329,9 @@ font-size: 30px;
 }
 
 .flex{
-border: 1px solid rgb(221, 212, 212);
+border: 1px solid #f8f9fa!important;
 height: 600px;
-background-color: rgb(221, 212, 212);
+background-color:#f8f9fa!important;
 }
 
 .location_text_box {
@@ -511,16 +511,16 @@ flex: 1;
 display: flex;
 } 
 .author{
-border: 1px solid  whitesmoke;
+border: 1px solid  white;
 height: 600px;
 width: 600px;
-background-color: whitesmoke;
+background-color: white;
 margin-left: 20px;
 }
 .flex{
-border: 1px solid rgb(221, 212, 212);
+border: 1px solid #f8f9fa!important;;
 height: 600px;
-background-color: rgb(221, 212, 212);
+background-color:#f8f9fa!important;;
 margin-right: 72px;
 }
 .location_text_box{
@@ -727,19 +727,19 @@ flex: 1;
 display: flex;
 } 
 .author{
-border: 1px solid  whitesmoke;
+border: 1px solid  white;
 height: 565px;
-background-color: whitesmoke;
+background-color: white;
 margin-top: 36px;
 width: 378px;
 margin-left: 43px;
 }
 .flex{
-border: 1px solid rgb(221, 212, 212);
+border: 1px solid #f8f9fa!important;
 height: 565px;
 width: 50%;
 margin-top: 36px;
-background-color: rgb(221, 212, 212);
+background-color: #f8f9fa!important;
 margin-right: 143px;
 }
 .pro_task_top {
@@ -878,15 +878,14 @@ align-items: center;
 height: 600px;
 }
 .author {
-border: 1px solid whitesmoke;
+border: 1px solid white;
 height: 600px;
-background-color: rgb(115, 115, 115);
+background-color: #f6f6f6;
 width: 585px;
 margin-top: 36px;
 margin-left: 80px;
 }
 .location_text_box {
-
 width: 460px;
 height: 52px;
 }
@@ -911,7 +910,7 @@ border: 1px solid rgb(221, 212, 212);
 height: 600px;
 width: 298px;
 margin-top: 36px;
-background-color: rgb(221, 212, 212);
+background-color: #f8f9fa!important;
 margin-right: 104px;
 }
 .grid_header {
@@ -925,6 +924,7 @@ height: 600px;
 }
 .custom_header {
 height: 361px;
+margin-top: 0px;
 }
 .o{
   margin-bottom: 0px;
