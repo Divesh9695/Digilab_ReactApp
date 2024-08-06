@@ -34,6 +34,7 @@ const Navbar: React.FC = () => {
         <h1>DIGILAB</h1>
         <nav ref={navRef}>
           <div>
+          <Link to="/" onClick={() => handleNavigation("home")}>Home</Link>
             <Link to="/" onClick={() => handleNavigation("services")}>Services</Link>
             <Link to="/" onClick={() => handleNavigation("project")}>Project</Link>
             <Link to="/" onClick={() => handleNavigation("about")}>About</Link>
