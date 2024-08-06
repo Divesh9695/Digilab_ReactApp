@@ -48,6 +48,7 @@
 .carousel-image {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .carousel-caption {
@@ -947,8 +948,7 @@ margin-top: 0px;
 }
 
 
-
-
+/* 
 .carousel-wrapper {
   width: 100%;
   height: auto; 
@@ -959,7 +959,7 @@ margin-top: 0px;
 }
 
 .carousel-image {
-  width: 400px;
+  width: 512px;
   height: auto;
 
 }
@@ -985,7 +985,7 @@ margin-top: 0px;
     margin-left: 30px;
   }
 }
- 
+  */
 
 
 
@@ -998,6 +998,50 @@ margin-top: 0px;
 
 
 
+/* CustomCarousel.css */
 
+.carousel-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
 
+.carousel-slide {
+  position: relative;
+  padding: 0 15px; /* Adjust this padding to control the gap between slides */
+}
 
+.carousel-image_top {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  /* text-align: center; */
+  /* padding: 10px; */
+}
+
+.tep {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search_boxs {
+  font-size: 20px;
+  text-align: center;
+}
+
+.copy {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.yu {
+  margin: 0;
+}

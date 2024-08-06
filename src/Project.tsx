@@ -83,13 +83,14 @@ import "./CustomCarousel.css";
 import image from "../public/assets/pri.jpg";
 import pimage from "../public/assets/me.jpg";
 import aimage from "../public/assets/lap.jpg";
-import uimage from "../public/assets/api.jpg";
+// import uimage from "../public/assets/disk.jpg";
+import himage from "../public/assets/url.jpg";
 interface ProjectProps {
   id: string;
 }
 
 const Project: React.FC<ProjectProps> = ({ id }) => {
-  const images = [image, pimage, aimage, uimage];
+  const images = [image, pimage, aimage, himage ];
 
   const settings = {
     dots: true,
@@ -99,7 +100,7 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 766,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -138,11 +139,13 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
             {images.map((img, index) => (
               <div key={index} className="carousel-slide">
                 <img
-                  className="carousel-image"
+                  className="carousel-image_top"
                   src={img}
                   alt={`Slide ${index}`}
                 />
                 <div className="carousel-caption">
+                  <p className="yu">Work Name</p>
+                  <p className="yu">Web Design</p>
                 </div>
               </div>
             ))}
@@ -154,6 +157,5 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
 };
 
 export default Project;
-
 
 
