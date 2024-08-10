@@ -75,22 +75,20 @@
 
 
 
-
-
 import React from "react";
 import Slider from "react-slick";
 import "./CustomCarousel.css";
 import image from "../public/assets/pri.jpg";
 import pimage from "../public/assets/me.jpg";
 import aimage from "../public/assets/lap.jpg";
-// import uimage from "../public/assets/disk.jpg";
 import himage from "../public/assets/url.jpg";
+
 interface ProjectProps {
   id: string;
 }
 
 const Project: React.FC<ProjectProps> = ({ id }) => {
-  const images = [image, pimage, aimage, himage ];
+  const images = [image, pimage, aimage, himage];
 
   const settings = {
     dots: true,
@@ -126,14 +124,12 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
   return (
     <div id={id}>
       <div>
-        <div>
-          <p className="tep">ACCOMPLISHMENTS</p>
-          <p className="search_boxs">OUR PROJECTS</p>
-          <p className="copy">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia
-          </p>
-        </div>
+        <p className="tep">ACCOMPLISHMENTS</p>
+        <p className="search_boxs">OUR PROJECTS</p>
+        <p className="copy">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia
+        </p>
         <div className="carousel-wrapper">
           <Slider {...settings}>
             {images.map((img, index) => (
@@ -157,5 +153,3 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
 };
 
 export default Project;
-
-
