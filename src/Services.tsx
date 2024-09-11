@@ -163,8 +163,8 @@ const Services: React.FC<ServicesProps> = ({ id }) => {
       <div className="pri">
         <Row className="item">
           <Col></Col>
-          <Col className="to">
-            <div className="pra" style={{ backgroundImage: `url(${vbimage})` }}>
+          <Col className="to" style={{ backgroundImage: `url(${vbimage})` }}>
+            <div className="pra" >
               <div className="search">
                 <div
                   className="switch"
